@@ -7,4 +7,5 @@ toggle.addEventListener("click", () => {
   toggle.setAttribute("aria-expanded", String(!isOpen)); 
 });
 
-
+document.body.classList.toggle('noscroll', willOpen);
+//ajoute la classe noscroll au body si le menu est ouvert (willOpen est true)
