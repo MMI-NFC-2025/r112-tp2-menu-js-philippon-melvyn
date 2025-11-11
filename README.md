@@ -80,7 +80,7 @@ La page doit afficher le menu
 Trouvez l'élément de classe CSS `menu-btn` :
 
 ```js
-toggle = ________.__________("________");
+toggle = ________.__________("");
 ```
 
 Maintenant changer à `true` l'attribut `"aria-expanded"` de l'élément référencé par la variable `toggle`.

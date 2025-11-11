@@ -17,7 +17,7 @@ visibility: hidden; /* Cache le menu en le rendant invisible : https://developer
 /* On se sert de Javascript pour gérer l'ouverture et la fermeture du menu avec l'attribut "aria-hidden" */
 .menu[aria-hidden="false"] {
 visibility: visible; /* Rend le menu visible */
-opacity: 100; /* Rend le menu complètement opaque */
+opacity: 1; /* Rend le menu complètement opaque */
 }
 
 /* On ajoute une classe sur le body pour empêcher le scroll lorsque le menu est ouvert */
